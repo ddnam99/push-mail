@@ -1,0 +1,15 @@
+.vscode
+dist
+logs
+node_modules
+
+.drone.yml
+.env
+.gitignore
+.dockerignore
+.prettierignore
+.prettierrc.yaml
+Dockerfile
+docker-compose.yml
+package-lock.json
+yarn.lock

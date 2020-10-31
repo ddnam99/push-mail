@@ -1,0 +1,11 @@
+version: '3.4'
+
+services:
+  api-sic-form:
+    image: push-mail
+    build: .
+    restart: always
+    environment:
+      NODE_ENV: production
+    ports:
+      - 4444:4000
